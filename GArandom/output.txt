@@ -1,0 +1,63 @@
+[*] Position Hint - X: 0.898624, Y: 0.247825, Z: 0
+[*] Home Position - X: 0.898624, Y: 0.247825, Z: 25.25
+[*] Check: takeoff: NAV_ACC_RAD >= 0 : 1
+[*] Estimated take off time: 18.0581
+[*] Yaw alignment time: 0.23067
+[*] Estimated time cost: 15.1746
+[*] Last Position - X: 0.898344, Y: 0.247145, Z: 27.39
+[*] Yaw alignment time: 0.0606552
+[*] Estimated time cost: 13.8171
+[*] Last Position - X: 0.898254, Y: 0.247815, Z: 29.95
+[*] Yaw alignment time: 0.652016
+[*] Estimated time cost: 12.4258
+[*] Last Position - X: 0.898574, Y: 0.247335, Z: 31.33
+[*] Yaw alignment time: 1.287
+[*] Estimated time cost: 22.8444
+[*] Last Position - X: 0.897944, Y: 0.246475, Z: 31.34
+[*] Yaw alignment time: 1.19228
+[*] Estimated time cost: 19.3392
+[*] Last Position - X: 0.898384, Y: 0.247255, Z: 29.04
+[*] Yaw alignment time: 2.06728
+[*] Estimated time cost: 17.5834
+[*] Last Position - X: 0.897644, Y: 0.247445, Z: 27.27
+[*] Yaw alignment time: 0.0273529
+[*] Estimated time cost: 10.0655
+[*] Last Position - X: 0.897154, Y: 0.247435, Z: 26.86
+[*] Yaw alignment time: 1.03599
+[*] Estimated time cost: 19.5554
+[*] Last Position - X: 0.896694, Y: 0.248225, Z: 25.63
+[*] A yaw alignment is skipped because is under MIS_YAW_ERR. Double check is recommended
+[*] Yaw alignment time: 0
+[*] Estimated time cost: 18.7671
+[*] Last Position - X: 0.896404, Y: 0.247345, Z: 24.5
+[*] Yaw alignment time: 0.218127
+[*] Estimated time cost: 19.6917
+[*] Last Position - X: 0.896464, Y: 0.248305, Z: 26.49
+[*] Yaw alignment time: 1.5647
+[*] Estimated time cost: 17.294
+[*] Last Position - X: 0.895704, Y: 0.248455, Z: 24.39
+[*] Yaw alignment time: 1.68123
+[*] Estimated time cost: 13.6561
+[*] Last Position - X: 0.895794, Y: 0.249035, Z: 22.17
+[*] Yaw alignment time: 1.33222
+[*] Estimated time cost: 17.7782
+[*] Last Position - X: 0.896594, Y: 0.249165, Z: 19.64
+[*] Yaw alignment time: 3.12935
+[*] Estimated time cost: 18.2919
+[*] Last Position - X: 0.895884, Y: 0.249395, Z: 20.96
+[*] Yaw alignment time: 2.29286
+[*] Estimated time cost: 24.1779
+[*] Last Position - X: 0.896624, Y: 0.248605, Z: 20.02
+[*] A yaw alignment is skipped because is under MIS_YAW_ERR. Double check is recommended
+[*] Yaw alignment time: 0
+[*] Estimated time cost: 7.95617
+[*] Last Position - X: 0.896934, Y: 0.248375, Z: 22.68
+[*] Yaw alignment time: 0.111109
+[*] Estimated time cost: 9.89914
+[*] Last Position - X: 0.897384, Y: 0.248215, Z: 23.07
+[*] A yaw alignment is skipped because is under MIS_YAW_ERR. Double check is recommended
+[*] Yaw alignment time: 0
+[*] Estimated time cost: 26.2338
+[*] Last Position - X: 0.898624, Y: 0.247825, Z: 25.25
+[*] Estimated average landing speed: 1.5
+[*] Last Position - X: 0.898624, Y: 0.247825, Z: 0
