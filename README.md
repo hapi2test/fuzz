@@ -16,6 +16,11 @@ This repository contains the code for the **ParamFuzzer** project. Below is an o
 
 **ParamFuzzer** is a fuzzing tool that leverages setpoint generation code as enhanced feedback to optimize the process.
 
+## video demo
+We provide three videos showcasing three types of UAV anomalies caused by incorrect configurations.
+* https://youtu.be/MfE_ELEV_GQ
+* https://youtu.be/-i2bFYIB7O0
+* https://youtu.be/4rUY63GKm9c
 
 ## License
 
