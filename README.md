@@ -14,7 +14,7 @@ This repository contains the code for the **UAVConfigFuzzer** project. Below is 
 
 ## Project Overview
 
-**UAVConfigFuzzer** is a fuzzing tool that guided by setpoint estimation to efficiency setpoint generation code as enhanced feedback to optimize the process.
+**UAVConfigFuzzer** is a fuzzing tool that bypasses the bottleneck of time-consuming simulations by utilizing a headless setpoint generator to rapidly estimate UAV physical states.
 
 ## How to Use 
 
@@ -47,4 +47,5 @@ We provide three videos showcasing three types of UAV anomalies caused by incorr
 ## License
 
 This project is licensed under the BSD 2-Clause License.
+
 
