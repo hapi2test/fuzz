@@ -1,8 +1,3 @@
-# 变异的主函数
-# 输入 飞行计划
-# 默认配置列表变异算法 -》配置参数
-# setpoint generator
-# setpoint sequence -》test Oracle fitness scores
 
 
 import os
@@ -378,4 +373,5 @@ def mutate_nd_for_interruption(target_idx, correlated_idx, N=20, K=5, iterations
 if __name__ == "__main__":
     result, scores = mutate_nd_for_rapid(1,2)
     for r,s in zip(result, scores):
+
         print(s, r)
