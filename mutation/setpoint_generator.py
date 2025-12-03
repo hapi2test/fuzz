@@ -1,6 +1,3 @@
-# 自动化执行 px4的setpoint generator
-# 输入 配置参数，飞行计划
-# 输出 setpoints sequence
 
 import subprocess
 import datetime
@@ -36,4 +33,5 @@ def run_setpoint_generator(config_params,flight_plan):
             text=True
         )
         process.wait()
+
 
