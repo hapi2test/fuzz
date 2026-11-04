@@ -1,7 +1,0 @@
-.venv/
-build/
-runs/
-__pycache__/
-*.pyc
-figures/
-tests/
