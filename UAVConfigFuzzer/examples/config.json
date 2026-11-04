@@ -1,0 +1,33 @@
+{
+  "provenance": "Explicit experimental search windows adapted from legacy scripts; NOT automatically extracted implementation constraints. Defaults reviewed against the supplied PX4 source. Step sizes are experiment choices.",
+  "defaults": {
+    "MPC_ACC_HOR": 3, "MPC_ACC_HOR_MAX": 5, "MPC_TILTMAX_AIR": 45,
+    "MPC_ACC_DOWN_MAX": 3, "MPC_ACC_UP_MAX": 4, "MPC_JERK_MAX": 8, "MPC_JERK_AUTO": 4,
+    "MPC_XY_VEL_ALL": -10, "MPC_XY_CRUISE": 5, "MPC_XY_VEL_MAX": 12,
+    "MPC_Z_VEL_ALL": -3, "MPC_Z_V_AUTO_UP": 3, "MPC_Z_VEL_MAX_UP": 3,
+    "MPC_Z_V_AUTO_DN": 1.5, "MPC_Z_VEL_MAX_DN": 1.5,
+    "MPC_TKO_SPEED": 1.5, "MPC_LAND_SPEED": 0.7, "MPC_TILTMAX_LND": 12, "MPC_YAWRAUTO_MAX": 45
+  },
+  "domains": {
+    "MPC_ACC_HOR": {"intervals": [[1, 15]], "step": 1},
+    "MPC_ACC_DOWN_MAX": {"intervals": [[0.8, 15]], "step": 0.2},
+    "MPC_ACC_UP_MAX": {"intervals": [[1, 15]], "step": 1},
+    "MPC_JERK_AUTO": {"intervals": [[1, 25]], "step": 1},
+    "MPC_XY_VEL_ALL": {"intervals": [[-20, 20]], "step": 1},
+    "MPC_XY_CRUISE": {"intervals": [[-1, 50]], "step": 1},
+    "MPC_XY_VEL_MAX": {"intervals": [[0, 20]], "step": 1},
+    "MPC_Z_VEL_ALL": {"intervals": [[-3, 20]], "step": 0.5},
+    "MPC_Z_V_AUTO_UP": {"intervals": [[-1, 10]], "step": 0.5},
+    "MPC_Z_V_AUTO_DN": {"intervals": [[-1, 10]], "step": 0.5},
+    "MPC_Z_VEL_MAX_UP": {"intervals": [[0, 10]], "step": 0.5},
+    "MPC_Z_VEL_MAX_DN": {"intervals": [[0, 10]], "step": 0.5},
+    "MPC_TKO_SPEED": {"intervals": [[0, 5]], "step": 0.5},
+    "MPC_LAND_SPEED": {"intervals": [[0, 3]], "step": 0.1},
+    "MPC_YAWRAUTO_MAX": {"intervals": [[0, 90]], "step": 5}
+  },
+  "correlation_provenance": "Explicit experiment pairs, supported by source expressions; NOT a complete static-analysis result. Do not prefilter violations: they are the test targets.",
+  "correlations": [["MPC_XY_CRUISE", "MPC_XY_VEL_MAX"], ["MPC_XY_VEL_MAX", "MPC_XY_CRUISE"], ["MPC_Z_V_AUTO_UP", "MPC_Z_VEL_MAX_UP"], ["MPC_Z_V_AUTO_DN", "MPC_Z_VEL_MAX_DN"], ["MPC_TKO_SPEED", "MPC_Z_VEL_MAX_UP"], ["MPC_LAND_SPEED", "MPC_Z_VEL_MAX_DN"]],
+  "generator": {"dt": 0.02, "max_time": 180, "acceptance_radius": 0.5, "xy_error": 2, "z_radius": 0.8, "gain": 0.5,
+    "takeoff_ramp_time": 3, "land_alt1": 10, "land_alt2": 5, "ground_z": 0,
+    "yaw_mode": 4, "yaw_error_deg": 12, "initial_yaw_rad": 0}
+}
